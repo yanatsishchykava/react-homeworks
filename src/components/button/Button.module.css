@@ -1,0 +1,36 @@
+.button {
+  border-radius: 6px;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button_big {
+  padding: 20px 35px;
+}
+
+.button_medium {
+  padding: 16px 46px;
+}
+
+.button_small {
+  padding: 9px 27px
+}
+
+.button_primary {
+  background-color: #35B8BE;
+  color: white;
+}
+
+.button_primary:hover {
+  background-color: #2fa5ab;
+}
+
+.button_secondary {
+  background-color: #F5FBFC;
+  color: #222222;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D7E0E4;
+}
