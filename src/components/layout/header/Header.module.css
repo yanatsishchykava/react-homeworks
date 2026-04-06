@@ -1,0 +1,70 @@
+.header {
+  padding: 25px 120px;
+  background: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 106px;
+}
+
+.logo img {
+  cursor: pointer;
+}
+
+.nav {
+  font-size: 15px;
+  display: flex;
+  gap: 35px;
+}
+
+.link {
+  color: #28224b;
+  font-size: 15px;
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: #35b8be;
+}
+
+.active {
+  color: #35b8be;
+}
+
+.cart {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cart_count {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+
+  width: 25px;
+  height: 25px;
+  background: white;
+  color: #35b8be;
+
+  border-radius: 50%;
+  font-size: 13px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
